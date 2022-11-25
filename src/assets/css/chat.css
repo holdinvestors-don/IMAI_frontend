@@ -1,0 +1,114 @@
+.g_txt_right {
+  text-allign: right;
+}
+
+.c_chat_img {
+  border: 1px solid silver;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.c_star_img {
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
+}
+
+.c_chat_left_dv {
+  padding: 30px 0px 0px 30px;
+}
+
+.c_chat_tlt {
+  font-weight: bold;
+  font-size: 36px;
+  text-shadow: 1px 1px 1px silver;
+}
+
+.c_chat_stlt {
+  font-weight: bold;
+  color: gray;
+  text-transform: uppercase;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+.c_lbutton {
+  background: -webkit-linear-gradient(332deg, #7367F0, rgba(115, 103, 240, 0.7));
+  background: linear-gradient(118deg, #7367F0, rgba(115, 103, 240, 0.7));
+  box-shadow: 0 0 10px 1px rgb(115 103 240 / 70%);
+  width: 150px;
+  border: none;
+  margin-bottom: 10px;
+}
+
+.c_chat_tuser_name {
+  font-weight: bold;
+  color: navy;
+}
+
+.c_chat_body_dv {
+  height: 450px;
+  border-radius: 5px;
+  margin: 10px 0px;
+  background-image: url("./src/assets/imgs/chat_back.webp");
+  padding-top: 10px;
+  padding-bottom: 10px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.c_chat_body_dv>div>div {
+  margin-top: 10px;
+}
+
+.c_chat_text_l {
+  display: inline-block;
+  padding: 0.75rem 1rem;
+  margin: 0 0 10px 0;
+  clear: both;
+  color: #FFFFFF;
+  background: -webkit-linear-gradient(332deg, #7367F0, rgba(115, 103, 240, 0.7));
+  background: linear-gradient(118deg, #7367F0, rgba(115, 103, 240, 0.7));
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 12%), 0 2px 4px 0 rgb(0 0 0 / 8%);
+  max-width: 80%;
+}
+
+.c_chat_text_r {
+  display: inline-block;
+  padding: 0.75rem 1rem;
+  margin: 0 20px 10px 0;
+  clear: both;
+  color: #626262;
+  background: none;
+  background-color: white;
+  border-radius: 0.5rem;
+  max-width: 80%;
+}
+
+.c_chat_form_dv>.row>div:first-child {
+  padding-right: 0px;
+}
+
+.c_chat_form_dv>.row>div:last-child {
+  padding-left: 3px;
+}
+
+.c_chat_input {
+  width: 100%;
+  margin-top: 5px;
+  height: 35px;
+}
+
+.c_chat_btn {
+  width: 100%;
+  height: 35px
+}
+
+.c_my_notice {
+  padding: 30px;
+}

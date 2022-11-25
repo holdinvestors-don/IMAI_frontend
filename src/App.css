@@ -1,0 +1,70 @@
+main {
+  text-align: center;
+  vertical-align: center;
+  line-height: 100vh
+}
+
+body {
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+
+.g_none_dis {
+  display: none;
+}
+
+.g_txt_center {
+  text-align: center;
+}
+
+.c_top_tlt {
+  font-size: 24px;
+  text-align: center;
+  font-weight: bold;  
+  border-bottom: 1px dotted rgba(100, 100,100, 0.3);
+  padding-bottom: 3px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+}
+
+.c_cnt_top_dv {
+  border: 1px solid rgba(100, 100, 100, 0.3);
+  border-radius: 3px;
+  min-height: 350px;
+  margin-top: 30px;
+  padding: 30px;
+}
+
+.c_cnt_top_dv .row {
+  margin-bottom: 10px;  
+}
+
+.g_txt_right {
+  text-align: right;
+}
+
+textarea, input {
+  width: 100%;
+  border: 1px solid rgba(100, 100, 100, 0.3);
+  border-radius: 3px;
+  padding: 3px 10px;
+}
+
+button {
+  border: 1px solid #f4623a;
+  background: #f4623a;
+  color: white;
+  border-radius: 3px !important;
+  margin-top: 5px !important;
+  opacity: 0.8;
+}
+
+button:hover {
+  opacity: 1;  
+}
+
+.c_label {
+  font-style: italic;
+  font-weight: bold;
+}
